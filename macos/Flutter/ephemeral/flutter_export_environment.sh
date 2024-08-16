@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/home/charmaine/flutter"
-export "FLUTTER_APPLICATION_PATH=/home/charmaine/Pictures/Flutter/my_new_app"
+export "FLUTTER_ROOT=/home/charmaine/snap/flutter/common/flutter"
+export "FLUTTER_APPLICATION_PATH=/home/charmaine/Pictures/NEW FOLDER/flutter"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=1.0.0"
