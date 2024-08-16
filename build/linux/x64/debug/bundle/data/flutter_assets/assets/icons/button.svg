@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="063c0bb10240ee2bf2cb46c206bddb48.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0" />
+  <defs
+     id="defs12">
+    <linearGradient
+       id="paint0_linear_414_8490"
+       x1="24"
+       y1="24"
+       x2="-7.98704"
+       y2="21.524799"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#C58BF2"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#EEA4CE"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="paint1_linear_414_8490"
+       x1="14.0417"
+       y1="7.9168301"
+       x2="12.3868"
+       y2="18.610399"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#C58BF2"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#EEA4CE"
+         id="stop9" />
+    </linearGradient>
+  </defs>
+  <circle
+     cx="12"
+     cy="12"
+     r="11.6"
+     fill="#ffffff"
+     stroke="url(#paint0_linear_414_8490)"
+     stroke-width="0.8"
+     id="circle14"
+     style="stroke:url(#paint0_linear_414_8490)" />
+  <path
+     d="M 9.9583704,7.9168304 14.0417,12.0002 9.9583704,16.0835"
+     stroke="url(#paint1_linear_414_8490)"
+     stroke-width="1.2"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path16"
+     style="stroke:url(#paint1_linear_414_8490)" />
+</svg>

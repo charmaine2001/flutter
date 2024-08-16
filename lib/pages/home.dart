@@ -2,14 +2,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:my_new_app/models/category_model.dart';
 
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
   List<CategoryModel> categories = [];
 
+  void _getCategories() {
+    categories = CategoryModel.getCategories();
+  }
+
   @override
   Widget build(BuildContext context) {
+    _getCategories();
     return Scaffold(
         appBar: appBar(),
         backgroundColor: Colors.white,
@@ -37,13 +43,28 @@ class HomePage extends StatelessWidget {
                 // since we used a column we can insert sizebox and set to desired height to put some space between the container and the text 'category'
                 SizedBox(height: 15),
                 Container(
-                  height: 150,
+                  height: 120,
                   color: Colors.green,
-                  child: ListView.builder(
+                  child: ListView.separated(
+                    itemCount: categories.length,
+                    scrollDirection: Axis.horizontal,
+                    padding: EdgeInsets.only(
+                      left: 20,
+                      right: 20
+                    ),
+                    separatorBuilder: (context, index) => SizedBox(width: 25,),
                     // index is the number of the items
                     // to create a referencing method for each of the individual items we can create a models folder and create style files for the individual items
                     itemBuilder: (context, index) {
-                      return Container();
+                      return Container(
+                        
+                        width: 100,
+                        decoration: BoxDecoration(
+                          color: categories[index].boxColor.withOpacity(0.3),
+                          borderRadius: BorderRadius.circular(16)
+                        ),
+                        child: Column(),
+                      );
                     },
                   ),
                   // to have a list of items in flutter
@@ -149,33 +170,3 @@ class HomePage extends StatelessWidget {
         ]);
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

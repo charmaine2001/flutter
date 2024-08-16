@@ -1,0 +1,1 @@
+ /home/charmaine/Pictures/NEW\ FOLDER/flutter/.dart_tool/flutter_build/405b133a2a87c87c0112b94099e2b6c0/native_assets.yaml: 
