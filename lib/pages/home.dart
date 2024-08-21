@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
@@ -44,25 +46,22 @@ class HomePage extends StatelessWidget {
                 SizedBox(height: 15),
                 Container(
                   height: 120,
-                  color: Colors.green,
+                  // color: Colors.green,
                   child: ListView.separated(
                     itemCount: categories.length,
                     scrollDirection: Axis.horizontal,
-                    padding: EdgeInsets.only(
-                      left: 20,
-                      right: 20
+                    padding: EdgeInsets.only(left: 20, right: 20),
+                    separatorBuilder: (context, index) => SizedBox(
+                      width: 25,
                     ),
-                    separatorBuilder: (context, index) => SizedBox(width: 25,),
                     // index is the number of the items
                     // to create a referencing method for each of the individual items we can create a models folder and create style files for the individual items
                     itemBuilder: (context, index) {
                       return Container(
-                        
                         width: 100,
                         decoration: BoxDecoration(
-                          color: categories[index].boxColor.withOpacity(0.3),
-                          borderRadius: BorderRadius.circular(16)
-                        ),
+                            color: categories[index].boxColor.withOpacity(0.3),
+                            borderRadius: BorderRadius.circular(16)),
                         child: Column(),
                       );
                     },

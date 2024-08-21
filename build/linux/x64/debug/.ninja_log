@@ -78,3 +78,29 @@
 4882	6537	1723814255863029034	CMakeFiles/my_new_app.dir/my_application.cc.o	d4d8f4c7fcbf1388
 6537	7018	1723814256343019453	intermediates_do_not_run/my_new_app	93b4626e4cc8a2f7
 7018	7325	0	CMakeFiles/install.util	91143169742e6d6b
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/libflutter_linux_gtk.so	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_engine.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_value.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/fl_view.h	a5dd78c99de63c38
+2	4688	0	/home/charmaine/Pictures/NEW FOLDER/flutter/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	a5dd78c99de63c38
+2	4688	0	flutter/_phony_	a5dd78c99de63c38
+4690	6590	1724134340025928413	CMakeFiles/my_new_app.dir/flutter/generated_plugin_registrant.cc.o	877b434da9d1e87e
+4690	6681	1724134340113928730	CMakeFiles/my_new_app.dir/my_application.cc.o	d4d8f4c7fcbf1388
+6681	7362	1724134340789931168	intermediates_do_not_run/my_new_app	93b4626e4cc8a2f7
+7362	8014	0	CMakeFiles/install.util	91143169742e6d6b
