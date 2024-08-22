@@ -2,8 +2,14 @@
 
 import 'package:flutter/material.dart';
 
-class LandingPage extends StatelessWidget {
-  const LandingPage({super.key});
+class LandingPage extends StatefulWidget {
+  // const LandingPage({super.key});
+  @override
+  _LandingPageState createState() => _LandingPageState();
+}
+
+class _LandingPageState extends State<LandingPage> {
+  bool _isHovered = false;
 
   @override
   Widget build(BuildContext context) {
@@ -73,6 +79,7 @@ class LandingPage extends StatelessWidget {
                       ),
                     ),
                     SizedBox(height: 100),
+
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
                       child: ElevatedButton(
@@ -80,10 +87,42 @@ class LandingPage extends StatelessWidget {
                           Navigator.pushNamed(context, '/login');
                         },
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.green,
+                          backgroundColor: Color.fromARGB(255, 170, 158, 153),
                           foregroundColor: Colors.black,
                         ),
-                        child: const Text('Get Started!'),
+                        child: const Text('Personalise Your Experience'),
+                      ),
+                    ),
+                    SizedBox(height: 50),
+
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, '/createAccount');
+                      },
+                      child: MouseRegion(
+                        onEnter: (event) {
+                          setState(() {
+                            _isHovered = true;
+                          });
+                        },
+                        onExit: (event) {
+                          setState(() {
+                            _isHovered = false;
+                          });
+                        },
+                        child: AnimatedDefaultTextStyle(
+                          duration: Duration(milliseconds: 200),
+                          style: TextStyle(
+                            color: Color.fromARGB(255, 132, 217, 238),
+                            fontSize: 14.0,
+                            fontWeight: FontWeight.w100,
+                            decoration: _isHovered
+                                ? TextDecoration.underline
+                                : TextDecoration.none,
+                            decorationThickness: _isHovered ? 2.0 : 0.0,
+                          ),
+                          child: Text('Get Started without an account'),
+                        ),
                       ),
                     ),
                   ],

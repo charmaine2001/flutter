@@ -1,53 +1,3 @@
-// // ignore_for_file: prefer_const_constructors
-
-// import 'package:flutter/material.dart';
-
-// class CreateAccountPage extends StatefulWidget {
-//   @override
-//   _CreateAccountPageState createState() => _CreateAccountPageState();
-// }
-
-// class _CreateAccountPageState extends State<CreateAccountPage> {
-//   bool _isHovered = false;
-//   final _createusernameController = TextEditingController();
-//   final _createpasswordController = TextEditingController();
-//   final _emailController = TextEditingController();
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: AppBar(
-//         title: Text("Create Account"),
-//       ),
-//       body: Padding(
-//         padding: const EdgeInsets.all(16.0),
-//         child: Column(
-//           mainAxisAlignment: MainAxisAlignment.center,
-//           children: [
-//             TextField(
-//               decoration: InputDecoration(labelText: 'Username'),
-//             ),
-//             TextField(
-//               decoration: InputDecoration(labelText: 'Email'),
-//             ),
-//             TextField(
-//               decoration: InputDecoration(labelText: 'Password'),
-//               obscureText: true,
-//             ),
-//             SizedBox(height: 20),
-//             ElevatedButton(
-//               onPressed: () {
-//                 Navigator.pushNamed(context, '/login');
-//               },
-//               child: Text("Create Account"),
-//             ),
-//           ],
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 import 'package:flutter/material.dart';
 
 class CreateAccountPage extends StatefulWidget {
@@ -164,7 +114,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
               ElevatedButton(
                 onPressed: () {
                   // In a real app, you would validate credentials here
-                  Navigator.pushNamed(context, '/home');
+                  Navigator.pushNamed(context, '/login');
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor:
@@ -207,7 +157,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                           : TextDecoration.none,
                       decorationThickness: _isHovered ? 2.0 : 0.0,
                     ),
-                    child: Text('Login Using Facebook'),
+                    child: Text('Forgot Password'),
                   ),
                 ),
               ),
@@ -225,10 +175,8 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                 // Add login logic here
               },
               style: ElevatedButton.styleFrom(
-                backgroundColor: Color.fromARGB(
-                    255, 238, 25, 25), // Set the background color of the button
-                foregroundColor:
-                    Colors.white, // Set the text color of the button
+                backgroundColor: Color.fromARGB(255, 238, 25, 25),
+                foregroundColor: Colors.white,
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8),
